@@ -1,0 +1,43 @@
+name: sigma_path
+description: A self-improvement SaaS designed for individuals who follow the Sigma Male mindset.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  http: ^1.1.0
+  intl: ^0.18.1
+  fl_chart: ^0.63.0
+  percent_indicator: ^4.2.3
+  lottie: ^2.6.0
+  rive: ^0.11.4
+  flutter_local_notifications: ^15.1.0+1
+  url_launcher: ^6.1.12
+  flutter_svg: ^2.0.7
+  google_fonts: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/animations/
+  #   - assets/images/
+  fonts:
+    - family: Montserrat
+      # fonts:
+      #   - asset: assets/fonts/Montserrat-Regular.ttf
+      #   - asset: assets/fonts/Montserrat-Bold.ttf
+      #     weight: 700
+      #   - asset: assets/fonts/Montserrat-Medium.ttf
+      #     weight: 500
